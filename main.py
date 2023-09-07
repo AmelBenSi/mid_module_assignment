@@ -1,12 +1,9 @@
 import sys
 import itertools
 
-NO_PATH = sys.maxsize
-
-graph = []
-
 
 # Recursive Implementation of Floyd-Warshall´s Algorithm
+
 
 def floyd(distance):
 
@@ -39,8 +36,8 @@ def floyd(distance):
         end_node += 1
         start_node += 1
 
+    print(f"\nThe input graph:\n{distance}")
+
     print(f"\nThe output graph:\n{distance}")
 
-
-print(f"\nThe input graph:\n{graph}")
-floyd(graph)
+    return distance
