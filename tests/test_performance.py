@@ -15,8 +15,8 @@ using the very large graph of Test Case 8.
 """
 
 # Import the functions
-from recursive.floyd_recursive import floyd
-from imperative.floyd_imperative import floyd_imp
+from floyd_warshall.floyd_recursive import floyd
+from floyd_warshall.floyd_imperative import floyd_imp
 
 
 # Import test cases

@@ -1,7 +1,7 @@
 # Unit tests for the floyd function
 
 # Import floyd function
-from recursive.floyd_recursive import floyd
+from floyd_warshall.floyd_recursive import floyd
 
 # Import test cases to be tested
 from tests.test_cases import (input_reference, input_NegativeEdges, input_NegativeCycle, input_NonIntegerError,
